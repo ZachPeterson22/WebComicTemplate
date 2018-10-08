@@ -1,0 +1,27 @@
+@import "variables";
+@import "nav";
+@import "mainContent";
+@import "about";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  @include flexCol();
+  background: $primary-color;
+  color: $main-text-color;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.main-body {
+  @include defaultBorder();
+  border-radius: 25px;
+  margin: 0 auto;
+  width: 60%;
+}

@@ -1,0 +1,15 @@
+{
+  "name": "web-comic-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^4.9.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "sass": "node-sass -w scss/ -o site/styles/ --recursive"
+  },
+  "author": "",
+  "license": "ISC"
+}

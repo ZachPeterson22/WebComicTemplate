@@ -1,0 +1,37 @@
+#navbar {
+  @include defaultBorder();
+  border-radius: 25px;
+  @include flexCol();
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  flex-wrap: wrap;
+  background-color: $primary-color;
+  margin: 0 auto;
+  width: 70%;
+  min-height: 50px;
+  .nav-title {
+    font-size: 36px;
+    text-align: center;
+    margin: 5px;
+  }
+  .navbar {
+    @include flexRow();
+    justify-content: space-evenly;
+    margin: 5px;
+    .nav-item {
+      border: 1px solid black;
+      cursor: pointer;
+      a {
+        display: block;
+        color: $main-text-color;
+        text-decoration: none;
+        padding: 8px 15px;
+      }
+      &:hover {
+        background-color: darken($primary-color, 20%);
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.comic-section {
+  @include flexRow();
+  align-items: center;
+  margin: 15px;
+
+  .prev-comic-btn,
+  .next-comic-btn {
+    @include defaultBorder();
+    width: 25px;
+    height: 25px;
+    margin: 0 10px;
+  }
+
+  .comic-content-section {
+    @include flexCol();
+    flex: 1;
+
+    .comic-title {
+      font-size: 24x;
+      text-align: center;
+    }
+
+    .comic {
+      flex: 1;
+      text-align: center;
+      @include defaultBorder();
+      height: 250px;
+    }
+  }
+}

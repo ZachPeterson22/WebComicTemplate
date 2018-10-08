@@ -1,0 +1,96 @@
+#navbar {
+  border: 1px solid black;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  flex-wrap: wrap;
+  background-color: #6cf;
+  margin: 0 auto;
+  width: 70%;
+  min-height: 50px; }
+  #navbar .nav-title {
+    font-size: 36px;
+    text-align: center;
+    margin: 5px; }
+  #navbar .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 5px; }
+    #navbar .navbar .nav-item {
+      border: 1px solid black;
+      cursor: pointer; }
+      #navbar .navbar .nav-item a {
+        display: block;
+        color: #222;
+        text-decoration: none;
+        padding: 8px 15px; }
+      #navbar .navbar .nav-item:hover {
+        background-color: #00aaff; }
+
+.comic-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 15px; }
+  .comic-section .prev-comic-btn,
+  .comic-section .next-comic-btn {
+    border: 1px solid black;
+    width: 25px;
+    height: 25px;
+    margin: 0 10px; }
+  .comic-section .comic-content-section {
+    display: flex;
+    flex-direction: column;
+    flex: 1; }
+    .comic-section .comic-content-section .comic-title {
+      font-size: 24x;
+      text-align: center; }
+    .comic-section .comic-content-section .comic {
+      flex: 1;
+      text-align: center;
+      border: 1px solid black;
+      height: 250px; }
+
+.about-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; }
+  .about-section .about-title {
+    font-size: 36px;
+    text-align: center;
+    margin: 10px 10px 0 10px; }
+  .about-section .about {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    justify-content: space-evenly;
+    min-height: 150px;
+    text-align: center; }
+    .about-section .about .name {
+      font-size: 24px; }
+
+* {
+  box-sizing: border-box; }
+
+html {
+  height: 100%; }
+
+body {
+  display: flex;
+  flex-direction: column;
+  background: #6cf;
+  color: #222;
+  margin: 0 auto;
+  height: 100%; }
+
+.main-body {
+  border: 1px solid black;
+  border-radius: 25px;
+  margin: 0 auto;
+  width: 60%; }

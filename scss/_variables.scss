@@ -1,0 +1,16 @@
+@mixin flexRow {
+  display: flex;
+  flex-direction: row;
+}
+
+@mixin flexCol {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin defaultBorder {
+  border: 1px solid black;
+}
+
+$primary-color: #6cf;
+$main-text-color: #222;

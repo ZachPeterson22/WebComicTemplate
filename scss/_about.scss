@@ -1,0 +1,26 @@
+.about-section {
+  @include flexCol();
+  justify-content: space-around;
+  .about-title {
+    font-size: 36px;
+    text-align: center;
+    margin: 10px 10px 0 10px;
+  }
+  .about {
+    @include flexCol();
+    margin: 10px;
+    padding: 10px;
+    justify-content: space-evenly;
+    min-height: 150px;
+    text-align: center;
+    .name {
+      font-size: 24px;
+    }
+    .random-description {
+    }
+    .job {
+    }
+    .email {
+    }
+  }
+}
